@@ -1,0 +1,63 @@
+.texto2 {
+position: relative;
+animation: texto2 1s ease-out;
+text-align: right; 
+font-weight: bold; 
+padding: 15px;
+}
+
+.texto3 {
+text-align: right; 
+font-weight: bold; 
+padding: 15px;
+position: relative;
+animation: texto3 1s ease-out;
+}
+
+
+.texto1 {
+padding: 15px;
+font-weight: bold;
+text-align: center;
+font-size: 35px;
+color: rgba(3,28,43,255);
+left: 50px;
+animation: texto1 2s ease-out;
+border-left: 5px solid #30b18a;
+}
+
+@keyframes texto1{
+
+    0%{opacity: 0;}
+    25%{opacity:0;}
+    50%{opacity:0;}
+    75%{opacity:0;}
+    100%{opacity:1;}
+}
+
+.desc {
+font-size: 20px;
+animation: desc 3s ease-out;
+}
+
+@keyframes desc{
+
+    0%{opacity: 0;}
+    25%{opacity:0;}
+    50%{opacity:0;}
+    75%{opacity:0;}
+    100%{opacity:1;}
+}
+
+.icon {
+animation: icon 3s ease-out;
+}
+
+@keyframes icon{
+
+    0%{opacity: 0;}
+    25%{opacity:0;}
+    50%{opacity:0;}
+    75%{opacity:0;}
+    100%{opacity:1;}
+}
